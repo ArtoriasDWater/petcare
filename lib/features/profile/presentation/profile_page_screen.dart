@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../auth/domain/user.dart';
 
+/// Pantalla de perfil
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key, required this.user});
 
