@@ -4,6 +4,7 @@ class User {
   final String correo;
   final String contrasena;
 
+  // Constructor
   const User({
     required this.id,
     required this.nombre,
