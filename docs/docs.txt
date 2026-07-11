@@ -1,0 +1,17 @@
+CARPETA docs/
+
+La carpeta docs contiene la documentación técnica del proyecto PetCare, proporcionando una representación visual de la arquitectura de la aplicación y del flujo de navegación entre sus diferentes pantallas. Su objetivo es facilitar la comprensión de la estructura del proyecto, las relaciones entre sus componentes y el recorrido que realiza el usuario durante la ejecución de la aplicación.
+
+Dentro de esta carpeta se incluyen los siguientes documentos:
+
+• Diagrama de Arquitectura
+
+Este diagrama ilustra la organización del proyecto siguiendo una arquitectura modular basada en características (Feature First). En él se representa la separación de responsabilidades entre las capas Presentation, Domain y Data de cada módulo (Auth, Dashboard, Pets y Profile), así como la interacción con el paquete compartido core, el cual contiene los componentes reutilizables, temas, validadores y widgets utilizados por toda la aplicación.
+
+El diagrama permite comprender cómo fluye la información desde la interfaz de usuario hasta la lógica de negocio y cómo se mantiene una estructura desacoplada, escalable y fácil de mantener.
+
+• Diagrama de Navegación
+
+Este diagrama muestra el flujo de navegación implementado mediante rutas nombradas en Flutter. Representa el recorrido que realiza el usuario desde la pantalla de inicio de sesión hacia el Dashboard y, posteriormente, el acceso a las diferentes funcionalidades de la aplicación, como la visualización de mascotas y el perfil del usuario.
+
+Además, permite identificar las relaciones entre las pantallas, facilitando la comprensión del funcionamiento general de la aplicación y del proceso de navegación definido durante el desarrollo del proyecto.

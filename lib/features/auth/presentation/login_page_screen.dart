@@ -35,6 +35,8 @@ class _LoginScreenPageState extends State<LoginPageScreen> {
         passwordController.text,
       );
 
+      if (!mounted) return;
+
       Navigator.pushReplacementNamed(
         context,
         AppRoutes.dashboard,
